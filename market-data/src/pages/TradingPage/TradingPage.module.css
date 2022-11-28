@@ -1,0 +1,40 @@
+.trading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-symbol {
+  margin: 4vh 0;
+  width: 180px;
+}
+
+.modal-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 4vh;
+  color: #7882a4;
+  margin-bottom: 10px;
+}
+
+.volume-container {
+  display: flex;
+  align-items: center;
+}
+
+.volume-text {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.volume-input {
+  width: 50%;
+}
+
+.side__buy {
+  color: green;
+}
+
+.side__sell {
+  color: red;
+}
