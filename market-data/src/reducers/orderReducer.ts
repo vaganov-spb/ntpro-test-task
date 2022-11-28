@@ -9,7 +9,7 @@ export default (state = initialState, action: IAddOrderAction) => {
   switch (action.type) {
     case addOrderType:
       return [
-        ...data,
+        ...state,
         {
           key: uuidv4(),
           ...action.payload,
